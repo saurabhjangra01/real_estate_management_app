@@ -270,7 +270,9 @@ docker-compose -f docker-compose.initial.yml up --build -d
 
 -   **6.Styling:**
 
--   **CSS:** Provides basic styling for the modal and home cards to ensure a user-friendly interface.
+    -   **CSS:** Provides basic styling for the modal and home cards to ensure a user-friendly interface.
+
+- Run **npm start** to run the frontend application
 
 ## 3. Backend API development on Node
 
@@ -364,6 +366,10 @@ docker-compose -f docker-compose.initial.yml up --build -d
     -   **getHomesByUser:** Retrieves all homes associated with a specific user.
     -   **getUsersByHome:** Retrieves all users interested in a specific home.
     -   **updateUsersOfHome:** Updates the UserHome table to reflect changes in user interests.
+
+- Run **npm run dev** to run the backend application
+- I have created a MySQL server instance on Aiven Cloud platform and used connection URI from Aiven Cloud for this MySQL server to connect to the database from the backend application.
+
 
 ## Submission Guidelines
 
